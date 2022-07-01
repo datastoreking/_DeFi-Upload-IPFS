@@ -1,10 +1,10 @@
-const MAX_WIDTH = 800;
-const MAX_HEIGHT = 800;
 const MIME_TYPE = "image/jpeg/png";
 const QUALITY = 0.7;
 
 const input = document.getElementById("img-input");
 input.onchange = function (ev) {
+  const MAX_WIDTH = document.getElementById("widthSize").value;
+  const MAX_HEIGHT = document.getElementById("heightSize").value;
   const file = ev.target.files[0]; // get the file
   const blobURL = URL.createObjectURL(file);
   const img = new Image();

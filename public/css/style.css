@@ -319,7 +319,62 @@ h1 {
 }
 
 .imgSizeBox{
-	padding:1rem;
-	border:1px solid #601ba1;
-	border-radius: 7px;
+	padding: 1rem;
+    border-radius: 5px;
+    margin-bottom: 10px;
+    background-color: #a7a7a72e;
+    color: #50a2ab;
 }
+
+.widthForm{
+	background-color: white;
+	margin-left: 30px;
+	color: #333;
+	width: 100px;
+}
+
+.videoForm{
+	border-top: 1px solid #cbc7c7;
+    padding-top: 20px;
+    text-align: center;
+}
+
+.uploadForm{
+	margin-top: 20px;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+}
+
+.downloadbtn{
+	cursor: pointer;
+	width: 150px;
+	padding: 0.5rem;
+	background:none;
+	border-radius: 5px;
+	border:1px solid #34923f;
+	color: #666666;
+}
+
+.downloadbtn:hover {
+	color: white;
+	background-color: #34923f;
+}
+
+#imageUploadforReduce label{
+	cursor:pointer;
+	background: #c35b2a;
+    color: white;
+    font-size: 1.5rem;
+    text-align: center;
+    border-radius: 5px;
+    padding: 2rem;
+	margin-bottom: 100px;
+}
+
+#imageUploadforReduce canvas{
+	margin-top: 40px;
+    width: 100px;
+    height: 100px;
+}
+
