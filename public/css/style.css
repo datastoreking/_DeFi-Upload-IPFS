@@ -186,7 +186,7 @@ nav ul ul li a:hover {
 }
 
 h1 {
-	color: #92b0b3;
+	color: #ffffff;
 	font-weight: 500;
 	font-size: 1.2em;
 	display: flex;
@@ -290,6 +290,7 @@ h1 {
 }
 
 #divResponse pre {
+	border-radius: 5px;
 	display: flex;
 	flex-direction: column;
 	color: #333;
@@ -306,6 +307,7 @@ h1 {
 
 .b-nav {
 	margin: 0px auto;
+	padding: 1rem;
 	width: 100%;
 	display: flex;
 	align-items: center;
@@ -314,4 +316,10 @@ h1 {
 	justify-content: space-around;
 	align-items: center;
 	flex-wrap: wrap;
+}
+
+.imgSizeBox{
+	padding:1rem;
+	border:1px solid #601ba1;
+	border-radius: 7px;
 }

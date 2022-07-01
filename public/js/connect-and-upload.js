@@ -107,6 +107,7 @@ function upload() {
             response.push(data[0])
             document.querySelector("#response").innerText = JSON.stringify(response, null, 2)
             updateList(fileChecksum(file), data[0].hash)
+            console.log(data[0].hash)
             uploadCount++
             if (uploadCount == filesOk.length) {
               document.querySelector('.min-loading.blue').classList.add('loading-hidden');  //stop loading event
